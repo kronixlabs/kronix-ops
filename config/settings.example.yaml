@@ -1,0 +1,17 @@
+# kronix-ops configuration template
+# Copy to settings.yaml and fill in your values (settings.yaml is gitignored)
+
+anthropic:
+  api_key: "sk-ant-..."
+  default_model: "claude-sonnet-4-6"
+
+n8n:
+  url: "http://localhost:5678"
+  api_key: "your-n8n-api-key"
+
+github:
+  token: "ghp_..."
+  org: "kronixlabs"
+
+logging:
+  level: "INFO"   # DEBUG | INFO | WARNING | ERROR
